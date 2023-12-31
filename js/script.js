@@ -2,7 +2,7 @@ function converterMoeda() {
     var valorEntrada = parseFloat(document.getElementById('pequena').value);
     var moedaDe = document.getElementById('s1').value;
     var moedaPara = document.getElementById('s2').value;
-    var taxaCambioUSD_BRL = 4.92;
+    var taxaCambioUSD_BRL = 4.85;
     var resultado;
 
     if (moedaDe === "Estados Unidos, Dollar (USD)" && moedaPara === "Brasil, Real (BRL)") {
